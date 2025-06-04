@@ -1,7 +1,7 @@
 # Fastify MS SQL Bridge
 
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/) <mcreference link="https://nodejs.org/" index="2">2</mcreference>
-[![Fastify](https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white)](https://www.fastify.io/) <mcreference link="https://www.fastify.io/" index="0">0</mcreference>
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/) <mcreference link="https://nodejs.org/" index="2"></mcreference>
+[![Fastify](https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white)](https://www.fastify.io/) <mcreference link="https://www.fastify.io/" index="0"></mcreference>
 [![MS SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)](https://www.microsoft.com/en-us/sql-server)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg?style=for-the-badge)](https://opensource.org/licenses/ISC)
 
@@ -70,7 +70,7 @@ curl http://localhost:3000/api/products
 #### Get products with filtering and sorting
 
 ```bash
-curl http://localhost:3000/api/products?sortBy=harga_brg&sortDir=desc&merk=(VALUE)
+curl http://localhost:3000/api/products?sortBy=(DB_COLUMN)&sortDir=(DB_COLUMN)&(DB_COLUMN)=(VALUE)
 ```
 
 #### Get a specific product
