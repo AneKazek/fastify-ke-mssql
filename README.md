@@ -126,7 +126,7 @@ Please make sure to update tests as appropriate and adhere to the existing codin
 
 ## 📝 License
 
-This project is licensed under the ISC License - see the <mcfile name="LICENSE" path="d:\Database\fastify-mssql-bridge-docker\LICENSE"></mcfile> file for details.
+This project is licensed under the Apache License 2.0 - see the <mcfile name="LICENSE" path="[https://github.com/AneKazek/fastify-ke-mssql/blob/master/LICENSE]"></mcfile> file for details.
 
 ## 🙏 Acknowledgements
 
